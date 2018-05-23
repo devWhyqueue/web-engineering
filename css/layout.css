@@ -1,0 +1,52 @@
+h1, h2, h3, h4, h5, h6 {
+  background-color: #ffffff;
+  color: #003a66;
+}
+
+input:valid {
+  background-color: rgba(105, 237, 34, 0.51);
+  color: black;
+}
+
+input:invalid {
+  background-color: rgba(217, 16, 16, 0.6);
+  color: black;
+}
+
+/* disabled because it looks terrible
+input[required]::after {
+  content: "(erforderliches Feld)";
+} */
+
+.lblForRequiredInput::after {
+  content: "*";
+  color: red;
+  background-color: white;
+}
+
+aside * {
+  background-color: rgba(25, 114, 186, 0.6);
+  color: black;
+}
+
+nav a:hover {
+  font-size: 1.5em;
+}
+
+#htmlDetailTable th:nth-of-type(even), td:nth-of-type(even) {
+  background-color: rgba(64, 55, 237, 0.45);
+  color: black;
+}
+
+* {
+  font-family: Arial, sans-serif;
+}
+
+a[href^="mailto"]::before {
+  background-image: url('../img/envelope.png');
+  background-size: 1em 1em;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  content: "";
+}

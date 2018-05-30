@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Seminarübersicht</title>
+  <link rel="stylesheet" href="./css/layout.css">
+</head>
+
+<body>
+  <header>
+    <img src="img/logo.png" alt="Logo" width="50" height="50">
+    <h1>Seminarübersicht</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="seminarliste.html">Seminarübersicht</a></li>
+      <li><a href="seminarleiter.html">Seminarleiter</a></li>
+      <li><a href="html-seminar.html">HTML-Seminar</a></li>
+      <li><a href="neues-seminar.html">Neues Seminar</a></li>
+    </ul>
+  </nav>
+  <main>
+    <form method="get" action="http://www.elsvene.de/seminarApp/testSearch.php">
+      <label for="semtitle">Seminartitel</label>
+      <input type="text" name="semtitle" id="semtitle" maxlength="20">
+      <label for="semlead">Seminarleiter</label>
+      <input list="semleadlist" type="text" name="semlead" id="semlead">
+      <datalist id="semleadlist">
+        <option value="Max Muster"></option>
+      </datalist>
+      <button type="submit" name="finden">Finden</button>
+    </form>
+    <ul>
+      <li> <a href="html-seminar.html">HTML-Seminar</a>, 01.05.2018, Dortmund </li>
+    </ul>
+  </main>
+  <aside>
+    <h3>Zusatzinformationen</h3>
+  </aside>
+  <footer>
+    <h4>Footer</h4>
+    <small>Copyright to devWhyqueue</small>
+  </footer>
+</body>
+
+</html>

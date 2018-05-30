@@ -1,0 +1,127 @@
+h1, h2, h3, h4, h5, h6 {
+  background-color: #ffffff;
+  color: #003a66;
+}
+
+header h1 {
+  text-shadow: 3px 3px gray;
+  letter-spacing: 0.2em;
+}
+
+input:valid {
+  background-color: rgba(105, 237, 34, 0.51);
+  color: black;
+}
+
+input:invalid {
+  background-color: rgba(217, 16, 16, 0.6);
+  color: black;
+}
+
+/* disabled because it looks terrible
+input[required]::after {
+  content: "(erforderliches Feld)";
+} */
+
+.lblForRequiredInput::after {
+  content: "*";
+  color: red;
+  background-color: white;
+}
+
+main {
+  float: left;
+  width: 80%;
+}
+
+aside {
+  float: right;
+  width: 20%;
+}
+
+aside * {
+  background-color: rgba(25, 114, 186, 0.6);
+  color: black;
+  padding: 3px;
+  margin: 3px;
+  border: 2px dotted;
+  clear: right;
+}
+
+nav a:hover {
+  font-size: 1.5em;
+}
+
+#htmlDetailTable thead {
+  background: linear-gradient(to right, white, lightblue);
+}
+
+#htmlDetailTable thead {
+  float: left;
+}
+
+#htmlDetailTable tbody {
+  background-color: yellow;
+  color: black;
+}
+
+#htmlDetailTable th {
+  display: block;
+}
+
+#htmlDetailTable td {
+  display: block;
+}
+
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a[href^="mailto"]::before {
+  background-image: url('../img/envelope.png');
+  background-size: 1em 1em;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  content: "";
+}
+
+fieldset {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+legend {
+  font-style: italic;
+  font-size: 0.8em;
+  background-color: blue;
+  color: white;
+  box-shadow: 2px 2px gray;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#seminarleiterBild {
+  float: right;
+}
+
+header img {
+  float: left;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+footer {
+  clear: both;
+  position: fixed;
+  bottom: 0px;
+}

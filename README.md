@@ -1,2 +1,2 @@
-# we-praktikum4
-Validierung, Vorbereitung CSS
+# we-praktikum6
+CSS-Eigenschaften und Boxen

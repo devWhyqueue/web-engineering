@@ -54,15 +54,13 @@ nav a:hover {
 
 #htmlDetailTable thead {
   background: linear-gradient(to right, white, lightblue);
-}
-
-#htmlDetailTable thead {
   float: left;
 }
 
 #htmlDetailTable tbody {
   background-color: yellow;
   color: black;
+  float: right;
 }
 
 #htmlDetailTable th {

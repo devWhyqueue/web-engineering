@@ -13,10 +13,9 @@ input:invalid {
   color: black;
 }
 
-/* disabled because it looks terrible
-input[required]::after {
+span::after {
   content: "(erforderliches Feld)";
-} */
+}
 
 .lblForRequiredInput::after {
   content: "*";

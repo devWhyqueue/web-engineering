@@ -22,24 +22,24 @@
     <form method="post" action="http://www.elsvene.de/seminarApp/testCreateSeminar.php">
       <fieldset>
         <legend>Seminar</legend>
-        <label for="semtitle">Seminartitel</label>
-        <input type="text" name="semtitle" id="semtitle" placeholder="Seminartitel" maxlength="20" pattern="[A-Z]\w*" autofocus required><br>
+        <label class="lblForRequiredInput" for="semtitle">Seminartitel</label>
+        <span class="requiredInput"><input type="text" name="semtitle" id="semtitle" placeholder="Seminartitel" maxlength="20" pattern="[A-Z]\w*" autofocus required></span><br>
         <label for="semlead">SeminarleiterIn</label>
         <select name="semlead" id="semlead">
         <option value="max">Max Muster</option>
       </select><br>
         <fieldset>
           <legend>Zeitangaben</legend>
-          <label class="lblForRequiredInput" for="semdate">Veranstaltungsdatum</label>
+          <label for="semdate">Veranstaltungsdatum</label>
           <input type="date" name="semdate" id="semdate" required><br>
-          <label class="lblForRequiredInput" for="semstart">Uhrzeit (Start)</label>
+          <label for="semstart">Uhrzeit (Start)</label>
           <input type="time" name="semstart" id="semstart" min="08:00" max="16:00" required>
-          <label class="lblForRequiredInput" for="semend">Uhrzeit (Ende)</label>
+          <label for="semend">Uhrzeit (Ende)</label>
           <input type="time" name="semend" id="semend" max="18:00" required><br>
         </fieldset>
-        <label class="lblForRequiredInput" for="semseats">verfügbare Plätze</label>
+        <label for="semseats">verfügbare Plätze</label>
         <input type="number" name="semseats" id="semseats" min="0" max="100" required><br>
-        <label class="lblForRequiredInput" for="semtutors">Tutoren</label>
+        <label for="semtutors">Tutoren</label>
         <input type="text" name="semtutors" id="semtutors" pattern="[a-z]{2,4}\d{1}([,][a-z]{2,4}\d{1})*" required><br>
       </fieldset>
       <fieldset>

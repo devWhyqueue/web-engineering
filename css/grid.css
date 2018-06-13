@@ -1,0 +1,41 @@
+#container {
+  display: grid;
+  grid-template-columns: 80% auto;
+  grid-template-rows: auto auto 80% auto;
+  grid-template-areas: "head head" "nav nav" "main aside" "foot foot";
+  height: 100%;
+}
+
+#contentContainer {
+  display: grid;
+  grid-template-columns: 30% auto;
+  grid-template-areas: "text pic";
+}
+
+header {
+  grid-area: head;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: main;
+}
+
+p {
+  grid-area: text;
+}
+
+figure {
+  grid-area: pic;
+}
+
+aside {
+  grid-area: aside;
+}
+
+footer {
+  grid-area: foot;
+}

@@ -1,0 +1,16 @@
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+#subcontainer {
+  display: flex;
+}
+
+#maincontainer {
+  display: flex;
+  flex-direction: column;
+  /* container is also item of subcontainer */
+  flex-grow: 1;
+  background-color: orange;
+}

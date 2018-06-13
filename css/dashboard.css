@@ -1,0 +1,32 @@
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+#maincontainer {
+  display: flex;
+  /* container is also item of subcontainer */
+  flex-grow: 1;
+  background-color: orange;
+}
+
+li {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 5em;
+  margin: 1em;
+  border: 2px solid;
+  font-size: 20px;
+}
+
+@media screen and (max-width:768px) {
+  li {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  li {
+    font-size: 10px;
+  }
+}

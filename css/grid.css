@@ -3,7 +3,6 @@
   grid-template-columns: 80% auto;
   grid-template-rows: auto auto 80% auto;
   grid-template-areas: "head head" "nav nav" "main aside" "foot foot";
-  height: 100%;
 }
 
 #contentContainer {

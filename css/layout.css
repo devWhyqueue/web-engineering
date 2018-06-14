@@ -9,22 +9,19 @@ header h1 {
 
 input:valid {
   background-color: rgba(105, 237, 34, 0.51);
-  color: black;
 }
 
 input:invalid {
   background-color: rgba(217, 16, 16, 0.6);
-  color: black;
+}
+
+.requiredInput::after {
+  content: "(erforderliches Feld)";
 }
 
 main {
   float: left;
   background-color: orange;
-}
-
-.lblForRequiredInput::after {
-  content: "*";
-  color: red;
 }
 
 aside {
@@ -34,11 +31,6 @@ aside {
   padding: 3px;
   margin: 3px;
   border: 2px dotted;
-}
-
-aside h3 {
-  background-color: rgba(25, 114, 186, 0.6);
-  color: black;
 }
 
 nav a:hover {
@@ -65,10 +57,6 @@ nav a:hover {
 
 #htmlDetailTable td {
   display: block;
-}
-
-* {
-  font-family: Helvetica, Arial, sans-serif;
 }
 
 a[href^="mailto"]::before {
@@ -116,6 +104,10 @@ header img {
 
 footer {
   clear: both;
+}
+
+* {
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 @media screen and (max-width:768px) {

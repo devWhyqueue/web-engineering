@@ -3,17 +3,21 @@
   flex-direction: column;
 }
 
-#maincontainer {
+#boxes {
   display: flex;
+  flex-flow: row wrap;
   /* container is also item of subcontainer */
   flex-grow: 1;
   background-color: orange;
 }
 
 li {
-  display: inline-block;
+  display: flex;
   box-sizing: border-box;
-  padding: 5em;
+  justify-content: center;
+  align-items: center;
+  height: 15em;
+  width: 15em;
   margin: 1em;
   border: 2px solid;
   font-size: 20px;

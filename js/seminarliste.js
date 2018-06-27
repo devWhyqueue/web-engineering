@@ -14,7 +14,7 @@ function Seminar(titel, leiter, ort, startzeit, endzeit, verfuegbarePlaetze, fre
   }
 }
 // Objekterzeugung
-let seminar1 = new Seminar('AngularJS', 'Koenigsmann', 'Haltern', '14:35', '19:00', 20, 15, 'Müller, Meier')
+let seminar1 = new Seminar('HTML-Seminar', 'Max Muster', 'Haltern', '08:00', '16:00', 20, 7, 'Müller, Meier')
 let seminar2 = new Seminar('VueJS', 'Wiesmann', 'Essen', '17:30', '21:00', 30, 20, 'Schmidt')
 console.log(seminar1)
 console.log(seminar2)
@@ -22,4 +22,12 @@ console.log(seminar2)
 let seminare = [seminar1, seminar2]
 seminare.forEach(function (s) {
   console.log(s.getBelegtePlaetze())
+})
+// Add objects to seminarliste.html
+let seminarliste = document.querySelector('#seminare')
+seminare.forEach(function (s) {
+  let listItem = document.createElement('li')
+  let itemText = s.titel + ', ' + s.leiter
+  listItem.textContent = itemText
+  seminarliste.append(listItem)
 })

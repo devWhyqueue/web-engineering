@@ -1,2 +1,2 @@
-# we-praktikum9
-Responsive Layouts
+# we-praktikum10
+Erzeugung von Seminar-Objekten (JavaScript)

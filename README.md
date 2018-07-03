@@ -1,2 +1,2 @@
-# we-praktikum9
-Responsive Layouts
+# we-praktikum11
+DOM, Events, Server-Vorbereitung

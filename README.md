@@ -1,2 +1,2 @@
-# we-praktikum11
-DOM, Events, Server-Vorbereitung
+# we-praktikum12
+Servlets und JSP

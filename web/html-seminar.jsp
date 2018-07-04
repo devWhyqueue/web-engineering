@@ -9,15 +9,15 @@
 
 <body>
   <header>
-    <a href="index.html">  <img src="img/logo.png" alt="Logo" width="50" height="50"></a>
+    <a href="index.jsp">  <img src="img/logo.png" alt="Logo" width="50" height="50"></a>
     <h1>Seminardetails</h1>
   </header>
   <nav>
     <ul>
-      <li><a href="seminarliste.html">Seminarübersicht</a></li>
-      <li><a href="seminarleiter.html">Seminarleiter</a></li>
-      <li><a href="html-seminar.html">HTML-Seminar</a></li>
-      <li><a href="neues-seminar.html">Neues Seminar</a></li>
+      <li><a href="seminarliste.jsp">Seminarübersicht</a></li>
+      <li><a href="seminarleiter.jsp">Seminarleiter</a></li>
+      <li><a href="html-seminar.jsp">HTML-Seminar</a></li>
+      <li><a href="neues-seminar.jsp">Neues Seminar</a></li>
     </ul>
   </nav>
   <main style="width: 75%">
@@ -36,7 +36,7 @@
       <tbody>
         <tr>
           <td>HTML-Seminar</td>
-          <td><a href="seminarleiter.html">Max Muster</a></td>
+          <td><a href="seminarleiter.jsp">Max Muster</a></td>
           <td>01.05.2018</td>
           <td>8.00-16.00 Uhr</td>
           <td>7</td>

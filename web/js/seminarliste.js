@@ -23,7 +23,7 @@ let seminare = [seminar1, seminar2]
 seminare.forEach(function (s) {
   console.log(s.getBelegtePlaetze())
 })
-// Add objects to seminarliste.html
+// Add objects to seminarliste.jsp
 let seminarliste = document.querySelector('#seminare')
 seminare.forEach(function (s) {
   let listItem = document.createElement('li')

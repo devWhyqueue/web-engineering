@@ -11,15 +11,15 @@
 <body>
   <div id="container">
     <header>
-      <a href="index.html">  <img src="img/logo.png" alt="Logo" width="50" height="50"></a>
+      <a href="index.jsp">  <img src="img/logo.png" alt="Logo" width="50" height="50"></a>
       <h1>Dashboard</h1>
     </header>
     <main>
       <ul id="boxes">
-        <li><a href="seminarliste.html">Seminarübersicht</a></li>
-        <li><a href="html-seminar.html">HTML-Seminar</a></li>
-        <li><a href="seminarleiter.html">Seminarleiter</a></li>
-        <li><a href="neues-seminar.html">Neues Seminar</a></li>
+        <li><a href="seminarliste.jsp">Seminarübersicht</a></li>
+        <li><a href="html-seminar.jsp">HTML-Seminar</a></li>
+        <li><a href="seminarleiter.jsp">Seminarleiter</a></li>
+        <li><a href="neues-seminar.jsp">Neues Seminar</a></li>
         <li><a id="addKachel" href="#">+</a></li>
       </ul>
     </main>

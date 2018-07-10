@@ -14,14 +14,7 @@
       <a href="index.jsp">  <img src="img/logo.png" alt="Logo" width="50" height="50"></a>
       <h1>Seminarübersicht</h1>
     </header>
-    <nav>
-      <ul>
-        <li><a href="seminarliste.jsp">Seminarübersicht</a></li>
-        <li><a href="seminarleiter.jsp">Seminarleiter</a></li>
-        <li><a href="html-seminar.jsp">HTML-Seminar</a></li>
-        <li><a href="neues-seminar.jsp">Neues Seminar</a></li>
-      </ul>
-    </nav>
+    <%@include file="navbar.jspf"%>
     <div id="subcontainer">
       <div id="maincontainer">
         <main>
@@ -40,14 +33,9 @@
           </ul>
         </main>
       </div>
-      <aside>
-        <h3>Zusatzinformationen</h3>
-      </aside>
+      <%@include file="aside.jspf"%>
     </div>
-    <footer>
-      <h4>Footer</h4>
-      <small>Copyright to devWhyqueue</small>
-    </footer>
+    <%@include file="footer.jspf"%>
   </div>
   <!-- scripts -->
   <script src="./js/seminarliste.js"></script>

@@ -23,10 +23,7 @@
         <li><a id="addKachel" href="#">+</a></li>
       </ul>
     </main>
-    <footer>
-      <h4>Footer</h4>
-      <small>Copyright to devWhyqueue</small>
-    </footer>
+    <%@include file="footer.jspf"%>
   </div>
   <!-- scripts -->
   <script src="./js/dashboard.js"></script>
